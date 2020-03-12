@@ -16,5 +16,10 @@ namespace UninstallBlockerInstaller
         {
             InitializeComponent();
         }
+
+        private void Button_Install_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

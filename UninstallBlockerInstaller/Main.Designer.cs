@@ -52,6 +52,7 @@
             resources.ApplyResources(this.Button_Open, "Button_Open");
             this.Button_Open.Name = "Button_Open";
             this.Button_Open.UseVisualStyleBackColor = true;
+            this.Button_Open.Click += new System.EventHandler(this.Button_Open_Click);
             // 
             // TextBox_Apk
             // 

@@ -28,22 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.Button_Install = new System.Windows.Forms.Button();
+            this.Label_Description = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // Button_Install
+            // 
+            resources.ApplyResources(this.Button_Install, "Button_Install");
+            this.Button_Install.Name = "Button_Install";
+            this.Button_Install.UseVisualStyleBackColor = true;
+            // 
+            // Label_Description
+            // 
+            resources.ApplyResources(this.Label_Description, "Label_Description");
+            this.Label_Description.Name = "Label_Description";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 375);
-            this.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Controls.Add(this.Label_Description);
+            this.Controls.Add(this.Button_Install);
             this.Name = "Main";
-            this.Text = "Uninstall Blocker Installer";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Button_Install;
+        private System.Windows.Forms.Label Label_Description;
     }
 }
 

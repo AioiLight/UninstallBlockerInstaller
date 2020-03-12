@@ -118,6 +118,15 @@ namespace UninstallBlockerInstaller.Properties {
         }
         
         /// <summary>
+        ///   Configuration completed. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Complete_Desc {
+            get {
+                return ResourceManager.GetString("Complete_Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Unable to set to device owner.
         ///First, remove all your accounts from device.
         ///After that, try again. に類似しているローカライズされた文字列を検索します。

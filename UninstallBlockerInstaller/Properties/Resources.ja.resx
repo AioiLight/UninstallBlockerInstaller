@@ -138,6 +138,9 @@ adb.exe のパスを確認してください。</value>
   <data name="ApkNotFound_Inst" xml:space="preserve">
     <value>{0} が見つかりませんでした</value>
   </data>
+  <data name="Complete_Desc" xml:space="preserve">
+    <value>設定が完了しました。</value>
+  </data>
   <data name="DeviceOwnerFailed_Desc" xml:space="preserve">
     <value>デバイス管理者に設定することができませんでした。
 初めに、アカウントを端末から全て削除してください。

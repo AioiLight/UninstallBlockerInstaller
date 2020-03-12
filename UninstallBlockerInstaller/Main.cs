@@ -102,7 +102,13 @@ namespace UninstallBlockerInstaller
                 if (receiver.ToString().Contains("Success:"))
                 {
                     // デバイス管理者の設定に成功
+                    var dialog = new TaskDialog();
+                    dialog.Caption = Properties.Resources.Complete_Desc;
+                    dialog.Text = Text;
+                    dialog.OwnerWindowHandle = Handle;
+                    dialog.Icon = TaskDialogStandardIcon.Information;
 
+                    dialog.Show();
                     return;
                 }
                 else

@@ -234,6 +234,12 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 240</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 240</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Uninstall Blocker Installer</value>
   </data>

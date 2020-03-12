@@ -68,6 +68,8 @@
             this.Controls.Add(this.Button_Open);
             this.Controls.Add(this.Label_Description);
             this.Controls.Add(this.Button_Install);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Main";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
             this.ResumeLayout(false);

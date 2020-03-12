@@ -94,4 +94,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(SolutionDir)platform-tools\*" "$(TargetDir)*"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

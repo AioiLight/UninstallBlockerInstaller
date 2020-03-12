@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Net.Mail;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using SharpAdbClient;
@@ -55,7 +48,6 @@ namespace UninstallBlockerInstaller
                 return;
             }
 
-
             var adb = new AdbServer();
 
             var adbResult = adb.StartServer(Path.Combine(appDir, "adb.exe"), true);
@@ -93,7 +85,7 @@ namespace UninstallBlockerInstaller
                 if (receiver.ToString().Contains("Success:"))
                 {
                     // デバイス管理者の設定に成功
-                    
+
                     return;
                 }
                 else
@@ -102,8 +94,6 @@ namespace UninstallBlockerInstaller
                     ErrorDialog.ShowError("", "", this);
                     return;
                 }
-
-
             }
             catch (Exception)
             {
@@ -111,10 +101,6 @@ namespace UninstallBlockerInstaller
                 ErrorDialog.ShowError("", "", this);
                 return;
             }
-
-
-
-
         }
 
         private void Button_Open_Click(object sender, EventArgs e)

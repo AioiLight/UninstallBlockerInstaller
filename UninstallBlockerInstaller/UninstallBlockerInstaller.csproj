@@ -39,6 +39,9 @@
     <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
     </Reference>
+    <Reference Include="SharpAdbClient, Version=2.2.0.0, Culture=neutral, PublicKeyToken=d728076f5d82a2e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpAdbClient.2.2.35\lib\net451\SharpAdbClient.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

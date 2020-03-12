@@ -118,129 +118,129 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button_Install.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 15.75pt</value>
-  </data>
-  <data name="Button_Install.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 106</value>
-  </data>
-  <data name="Button_Install.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 80</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Button_Install.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Button_Install.Text" xml:space="preserve">
-    <value>Install</value>
-  </data>
-  <data name="&gt;&gt;Button_Install.Name" xml:space="preserve">
-    <value>Button_Install</value>
-  </data>
-  <data name="&gt;&gt;Button_Install.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button_Install.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Button_Install.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Label_Description.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label_Description.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="Label_Description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 20</value>
-  </data>
-  <data name="Label_Description.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Label_Description.Text" xml:space="preserve">
-    <value>Do not touch your device until finished process!</value>
-  </data>
-  <data name="&gt;&gt;Label_Description.Name" xml:space="preserve">
-    <value>Label_Description</value>
-  </data>
-  <data name="&gt;&gt;Label_Description.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
   </data>
   <data name="&gt;&gt;Label_Description.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Label_Description.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Button_Open.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 65</value>
-  </data>
   <data name="Button_Open.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 30</value>
-  </data>
-  <data name="Button_Open.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Button_Open.Text" xml:space="preserve">
-    <value>Open...</value>
-  </data>
-  <data name="&gt;&gt;Button_Open.Name" xml:space="preserve">
-    <value>Button_Open</value>
-  </data>
-  <data name="&gt;&gt;Button_Open.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button_Open.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Button_Open.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TextBox_Apk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 32</value>
   </data>
   <data name="TextBox_Apk.Size" type="System.Drawing.Size, System.Drawing">
     <value>360, 27</value>
   </data>
-  <data name="TextBox_Apk.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TextBox_Apk.Name" xml:space="preserve">
-    <value>TextBox_Apk</value>
-  </data>
   <data name="&gt;&gt;TextBox_Apk.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TextBox_Apk.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Label_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 20</value>
   </data>
-  <data name="&gt;&gt;TextBox_Apk.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Description.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label_Description.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Button_Install.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button_Install.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+  <data name="Button_Open.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="&gt;&gt;Label_Description.Name" xml:space="preserve">
+    <value>Label_Description</value>
+  </data>
+  <data name="Button_Install.Text" xml:space="preserve">
+    <value>Install</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>384, 198</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 9.75pt</value>
+  <data name="TextBox_Apk.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button_Open.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="&gt;&gt;Button_Open.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Uninstall Blocker Installer</value>
+  <data name="&gt;&gt;TextBox_Apk.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Main</value>
+  <data name="&gt;&gt;TextBox_Apk.Name" xml:space="preserve">
+    <value>TextBox_Apk</value>
+  </data>
+  <data name="Button_Install.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 80</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;Button_Open.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_Apk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label_Description.Text" xml:space="preserve">
+    <value>Do not touch your device until finished process!</value>
+  </data>
+  <data name="&gt;&gt;Button_Install.Name" xml:space="preserve">
+    <value>Button_Install</value>
+  </data>
+  <data name="TextBox_Apk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 32</value>
+  </data>
+  <data name="Label_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Label_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="&gt;&gt;Button_Install.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button_Open.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Open.Name" xml:space="preserve">
+    <value>Button_Open</value>
+  </data>
+  <data name="Button_Open.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Button_Install.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 15.75pt</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Uninstall Blocker Installer</value>
+  </data>
+  <data name="&gt;&gt;Button_Install.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Button_Install.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 106</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

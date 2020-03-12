@@ -127,4 +127,7 @@
   <data name="Label_Description.Text" xml:space="preserve">
     <value>処理が完了するまで、端末に触れないでください！</value>
   </data>
+  <data name="Button_Open.Text" xml:space="preserve">
+    <value>開く...</value>
+  </data>
 </root>

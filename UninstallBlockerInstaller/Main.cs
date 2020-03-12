@@ -141,5 +141,18 @@ namespace UninstallBlockerInstaller
                 UpdateTextBox(dialog.FileName, TextBox_Apk);
             }
         }
+
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // adb.exeをキルする
+            try
+            {
+                AdbClient.Instance.KillAdb();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
     }
 }

@@ -69,6 +69,7 @@
             this.Controls.Add(this.Label_Description);
             this.Controls.Add(this.Button_Install);
             this.Name = "Main";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

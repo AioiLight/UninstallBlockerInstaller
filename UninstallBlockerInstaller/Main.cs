@@ -32,19 +32,30 @@ namespace UninstallBlockerInstaller
         private void Button_Install_Click(object sender, EventArgs e)
         {
             var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var prop = Properties.Resources.ResourceManager;
 
             // ファイルの存在チェック
             if (!File.Exists(TextBox_Apk.Text))
             {
                 // APKファイルが見つからない
-                ErrorDialog.ShowError("", "", this);
+                ErrorDialog.ShowError(
+                    string.Format(
+                        prop.GetString("ApkNotFound_Inst"),
+                        Path.GetFileName(TextBox_Apk.Text)),
+                    string.Format(
+                        prop.GetString("ApkNotFound_Desc"),
+                        Path.GetFileName(TextBox_Apk.Text)),
+                    this);
                 return;
             }
 
             if (!File.Exists(Path.Combine(appDir, "adb.exe")))
             {
                 // adb.exeが見つからない
-                ErrorDialog.ShowError("", "", this);
+                ErrorDialog.ShowError(
+                    prop.GetString("AdbNotFound_Inst"),
+                    prop.GetString("AdbNotFound_Desc"),
+                    this);
                 return;
             }
 
@@ -60,7 +71,10 @@ namespace UninstallBlockerInstaller
                 if (AdbClient.Instance.GetDevices().Count > 1)
                 {
                     // デバイスがどれひとつ接続されていない
-                    ErrorDialog.ShowError("", "", this);
+                    ErrorDialog.ShowError(
+                    prop.GetString("TooManyDevice_Inst"),
+                    prop.GetString("TooManyDevice_Desc"),
+                    this);
                     return;
                 }
 
@@ -73,7 +87,10 @@ namespace UninstallBlockerInstaller
                 catch (Exception)
                 {
                     // インストールに失敗した
-                    ErrorDialog.ShowError("", "", this);
+                    ErrorDialog.ShowError(
+                    prop.GetString("ApkInstallFailed_Inst"),
+                    prop.GetString("ApkInstallFailed_Desc"),
+                    this);
                     return;
                 }
 
@@ -91,14 +108,20 @@ namespace UninstallBlockerInstaller
                 else
                 {
                     // デバイス管理者の設定に失敗した
-                    ErrorDialog.ShowError("", "", this);
+                    ErrorDialog.ShowError(
+                    prop.GetString("DeviceOwnerFailed_Inst"),
+                    prop.GetString("DeviceOwnerFailed_Desc"),
+                    this);
                     return;
                 }
             }
             catch (Exception)
             {
                 // なんらかのエラー
-                ErrorDialog.ShowError("", "", this);
+                ErrorDialog.ShowError(
+                    prop.GetString("Error_Inst"),
+                    prop.GetString("Error_Desc"),
+                    this);
                 return;
             }
         }
